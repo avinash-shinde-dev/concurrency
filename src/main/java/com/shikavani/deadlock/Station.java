@@ -11,5 +11,10 @@ public class Station {
 
         t1.start();
         t2.start();
+
+        /**
+         * To avoid the deadlock situation, the simplest way is to maintain
+         * the order of locks same for each thread.
+         */
     }
 }
