@@ -30,5 +30,23 @@ public class Main {
         // Dynamic Priority -> Static Priority ( set by developer )  + Bonus
         // Os maintains this dynamic priority
 
+        // Thread interruption:
+
+        // Latency/ Performance?
+        // How we decide the no of subtasks?
+        // general purpose computations -> no of cpu cores
+
+        // Inherent cost of parallelization and aggregation?
+
+        // 1. Breaking task into multiple tasks
+        // 2. thread creation and pass tasks to thread
+        // 3. time between thread.start() and thread getting scheduled
+        // 4. time until the last thread finishes and signals
+        // 5. Time until the aggregator thread run
+        // 6. aggregation of sub results into the single artifact
+
+        // CAn we break any task into subtasks?
+        // ans -> No,
+
     }
 }
